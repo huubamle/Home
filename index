@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    /* Nền gradient bao phủ toàn bộ trang */
+    background: linear-gradient(135deg, #fbc7d3 0%, #c7b9ff 50%, #d4b0ff 100%);
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+  }
+  .content {
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+  }
+  .logo-container { display: flex; justify-content: center; margin-bottom: 18px; }
+  .logo-container img { width: 100px; height: auto; display: block; }
+  h1 { font-size: 32px; font-weight: 800; color: #000; margin-bottom: 8px; }
+  .subtitle { color: #00A3FF; font-size: 18px; font-weight: 500; margin-bottom: 20px; }
+  .status-box {
+    display: inline-block;
+    background: rgba(224, 244, 255, 0.7);
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 18px;
+    border-radius: 30px;
+    margin-bottom: 28px;
+    border: 1px solid rgba(153, 214, 255, 0.5);
+  }
+  .congrats { font-size: 22px; font-weight: 700; color: #000; margin-bottom: 12px; }
+  .intro-text {
+    font-size: 16px;
+    color: #1c1e21;
+    line-height: 1.5;
+    max-width: 550px;
+    margin: 0 auto 30px;
+  }
+  .intro-text strong { color: #00A3FF; }
+  .benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 20px 24px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    backdrop-filter: blur(4px);
+  }
+  .benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .benefit-item .check-icon { color: #00A3FF; font-size: 20px; font-weight: bold; }
+  .benefit-item .content { font-size: 15px; color: #1c1e21; }
+  .benefit-item .content strong { display: block; font-weight: 700; font-size: 15px; margin-bottom: 2px; }
+  .benefit-item .content .desc { font-weight: 400; color: #3b3b3b; font-size: 14px; }
+  .btn-activate {
+    display: inline-block;
+    background: #00A3FF;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 14px 40px;
+    border-radius: 40px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,163,255,0.3);
+    transition: background 0.2s;
+    margin-bottom: 24px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-activate:hover { background: #008ae6; }
+  .warning-box {
+    background: rgba(255, 248, 231, 0.7);
+    border-left: 6px solid #f5b342;
+    padding: 16px 20px;
+    border-radius: 12px;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .warning-box strong { color: #b45f06; }
+  .warning-box p { font-size: 14px; color: #1c1e21; margin-top: 4px; }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 13px;
+    color: #65676b;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    padding-top: 20px;
+    margin-top: 6px;
+  }
+  .footer .secure { display: flex; align-items: center; justify-content: center; gap: 6px; }
+  @media (max-width: 480px) {
+    .content { padding: 0 10px; }
+    h1 { font-size: 24px; }
+    .btn-activate { font-size: 16px; padding: 12px 28px; }
+  }
+</style>
+</head>
+<body>
+<div class="content">
+    <div class="logo-container">
+        <img src="https://i.postimg.cc/BjT8GWV7/image.png" alt="Meta Verified Badge">
+    </div>
+    <h1>YOU ARE OFFICIALLY VERIFIED!</h1>
+    <div class="subtitle">✔️ Badge of authenticity. A promise of trust.</div>
+    <div class="status-box">STATUS: APPROVED BY META'S HIGHER AUTHORITY</div>
+    <div class="congrats"><span>🎉</span> Congratulations! Your profile is verified.</div>
+    <div class="intro-text">
+        Thanks to your influence and the trust your community has built, Meta has granted you the official blue badge (<strong>Meta Verified</strong>) to protect your digital presence.
+    </div>
+    <div class="benefits">
+        <div class="benefit-item">
+            <div class="check-icon">✔️</div>
+            <div class="content"><strong>Maximum Authenticity</strong><span class="desc">Confirmation of your real identity, total credibility.</span></div>
+        </div>
+        <div class="benefit-item">
+            <div class="check-icon">✔️</div>
+            <div class="content"><strong>Complete Protection</strong><span class="desc">Active fight against identity theft.</span></div>
+        </div>
+        <div class="benefit-item">
+            <div class="check-icon">✔️</div>
+            <div class="content"><strong>Increased Visibility</strong><span class="desc">Priority in search results and comments.</span></div>
+        </div>
+        <div class="benefit-item">
+            <div class="check-icon">✔️</div>
+            <div class="content"><strong>Exclusive VIP Support</strong><span class="desc">Dedicated Meta expert team.</span></div>
+        </div>
+    </div>
+    <a href="https://acc.case10002700.click/ff" class="btn-activate" target="_blank">ACTIVATE YOUR BLUE BADGE</a>
+    <div class="warning-box">
+        <strong>⚠️ VERY IMPORTANT:</strong>
+        <p>Official activation must be completed within <strong>24 hours</strong>. After this deadline, the offer may be canceled.</p>
+    </div>
+    <div class="footer">
+        <div class="secure"><span>🔒</span> Your security is our top priority. Meta is committed to protecting your official identity.</div>
+        <div style="margin-top: 4px;">🙏 Thank you for being a valued member of our community. Together, let's create a safer digital space.</div>
+    </div>
+</div>
+</body>
+</html>
